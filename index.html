@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Qr generator</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="inputs">
+    <h1 class="texts">Wifi Login</h1>
+    <input type="text" placeholder="Enter Ssid Name" name="" id="ssid">
+    <input type="text" placeholder="Enter Password" name="" id="pass">
+    <img id="img" src="https://api.qrserver.com/v1/create-qr-code/?size=164x164&data=I_am_Dev_Sujeet" alt="Qr code">
+    <p class="texts">📸 Point you phone's camera at the Qr code to connect to Wifi</p>
+    <button id="print">Print</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
